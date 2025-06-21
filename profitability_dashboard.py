@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
-
+import plotly.express as px
 def highlight_key_rows(df):
     def row_style(row):
         if 'Particulars' in row.index:
